@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,28 +5,29 @@
 <title>Форма</title>
 <script type="text/javascript">	
 function Вітаю(){
-x=document.frm.user2.value;
-y=document.frm.user1.value;
+x=document.frm.sec.value;
+y=document.frm.nm.value;
 z=document.frm.em.value;
 k=document.frm.dt.value;
 alert("Вітаю, "+x+" "+y+". \nВи зареєстровані на сайті Професії майбутнього з такими даними:\nВаша пошта - "+z+" \nДата народження - "+k+" ")
 }
 </script>	
 </head>
-<body bgcolor="gray">
+<body>
 <h1 align="center">Анкета</font></h1>
+<body bgcolor="gray"></body>	
 <form name="frm"> 
 		
 
 <fieldset>
 <legend>Обов'язково</legend>
 
-<p>Прізвище: <input type="text" name="txt" placeholder="Уведіть прізвище"  required>
-<p>Ім'я: <input type="text" name="txt" placeholder="Уведіть ім'я"  required>
+<p>Прізвище: <input type="text" name="sec" placeholder="Уведіть прізвище"  required>
+<p>Ім'я: <input type="text" name="nm" placeholder="Уведіть ім'я"  required>
 <p>По батькові: <input type="text" name="txt" placeholder="Уведіть ім'я по батькові "  required>
-<p>Email: <input type="email" name="psw" placeholder="Уведіть адресу пошти"  required>
+<p>Email: <input type="email" name="em" placeholder="Уведіть адресу пошти"  required>
 <p>Дата: <input type="date" name="dt" placeholder="Уведіть дату"   required>
-<p>Пароль: <input type="password" name="em" placeholder="Уведіть пароль"   required>	
+<p>Пароль: <input type="password" name="pass" placeholder="Уведіть пароль"   required>	
 </fieldset>
 <p>
 <p>
